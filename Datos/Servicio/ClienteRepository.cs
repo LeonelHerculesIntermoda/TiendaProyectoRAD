@@ -10,6 +10,9 @@ namespace Datos.Servicio
 {
     public class ClienteRepository:Repository<Cliente> 
     {
+        public ClienteRepository()
+        {
 
+        }
     }
 }
