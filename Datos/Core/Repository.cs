@@ -27,6 +27,11 @@ namespace Datos.Core
             dbcontext.SaveChanges();
         }
 
+        public void Buscar(T entidad)
+        {
+            throw new NotImplementedException();
+        }
+
         public IQueryable<T> Consulta()
         {
             return dbcontext.Set<T>().AsQueryable();

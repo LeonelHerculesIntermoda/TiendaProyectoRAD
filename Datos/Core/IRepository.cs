@@ -13,5 +13,7 @@ namespace Datos.Core
         void Editar(T entidad);
         void Eliminar(T entidad);
         IQueryable<T> Consulta();
+
+        void Buscar(T entidad);
     }
 }
