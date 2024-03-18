@@ -53,7 +53,9 @@
   <ItemGroup>
     <Compile Include="BaseDatos\TiendaContext.cs" />
     <Compile Include="Core\IRepository.cs" />
+    <Compile Include="Core\IUnitOfWork.cs" />
     <Compile Include="Core\Repository.cs" />
+    <Compile Include="Core\UnitOfWork.cs" />
     <Compile Include="DClasificacionCliente.cs" />
     <Compile Include="DClientes.cs" />
     <Compile Include="Migrations\202402150117255_AdicionTablaCLasificacionClientes.cs" />
